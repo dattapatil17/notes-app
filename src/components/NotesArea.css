@@ -1,0 +1,48 @@
+
+.notes-area {
+    flex: 1;
+    flex-shrink: 0;
+    width: 75%;
+    height: 75%;
+    max-width: 75%;
+    max-height: 75%;
+    border: 2px solid black;
+    overflow: auto;
+    /* justify-self: center;
+    align-self: center; */
+
+    margin: 5vh auto 2vh auto;
+    background-color: white;
+  }
+  
+  .note-box {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(216, 233, 239);
+    border: 2px solid black;
+    overflow: auto;
+  }
+  
+  textarea {
+    max-width: 90%;
+    height: 90px;
+    border: none;
+    background-color: transparent;
+    border: 0px solid black;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 2;
+  }
+
+  .export-button{
+    min-width: 200px;
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: deepskyblue;
+    cursor: pointer;
+  }
